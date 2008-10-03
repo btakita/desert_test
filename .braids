@@ -34,3 +34,10 @@ vendor/gems/thoughtbot-factory_girl-1:
   revision: c88fc365179a0d92a42fd7ed08edb055427f90d4
   branch: master
   remote: braid/vendor/gems/thoughtbot-factory-girl-1
+vendor/gems/desert-1: 
+  squashed: true
+  url: git://github.com/pivotal/desert.git
+  type: git
+  revision: 5d565a3b31f0583cb270e2422c7542d9f7432802
+  branch: master
+  remote: braid/vendor/gems/desert-1
