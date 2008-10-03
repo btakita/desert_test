@@ -13,3 +13,10 @@ vendor/plugins/make_resourceful:
   revision: 26c3e0195e53b1c39bd3f26e7af6ec07c70e487c
   branch: master
   remote: braid/vendor/plugins/make-resourceful
+vendor/gems/thoughtbot-factory_girl-1: 
+  squashed: true
+  url: git://github.com/thoughtbot/factory_girl.git
+  type: git
+  revision: c88fc365179a0d92a42fd7ed08edb055427f90d4
+  branch: master
+  remote: braid/vendor/gems/thoughtbot-factory-girl-1
