@@ -13,6 +13,13 @@ vendor/plugins/make_resourceful:
   revision: 26c3e0195e53b1c39bd3f26e7af6ec07c70e487c
   branch: master
   remote: braid/vendor/plugins/make-resourceful
+vendor/plugins/shoulda_generator: 
+  squashed: true
+  url: git://github.com/technicalpickles/shoulda_generator.git
+  type: git
+  revision: a3ed2120fd9ae2a511e188ce668a16a8aa649731
+  branch: master
+  remote: braid/vendor/plugins/shoulda-generator
 vendor/gems/thoughtbot-factory_girl-1: 
   squashed: true
   url: git://github.com/thoughtbot/factory_girl.git
