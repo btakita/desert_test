@@ -1,0 +1,12 @@
+<h1>Editing blog</h1>
+
+<% form_for(@blog) do |form| %>
+  <%= render :partial => 'form', :locals => {:form => form} %>
+  <p><%= form.submit 'Update' %></p>
+<% end %>
+
+<p>
+  <%= link_to 'Show', @blog %>
+  |
+  <%= link_to 'Back', blogs_path %>
+</p>

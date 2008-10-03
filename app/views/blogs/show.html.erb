@@ -1,0 +1,12 @@
+<dl>
+  <dt>Name</dt>
+  <dd><%= h @blog.name %></dd>
+  <dt>Description</dt>
+  <dd><%= h @blog.description %></dd>
+</dl>
+
+<p>
+  <%= link_to 'Edit', edit_blog_path(@blog)%>
+  |
+  <%= link_to 'Back', blogs_path %>
+</p>

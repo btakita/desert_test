@@ -1,0 +1,12 @@
+<h1>Editing comment</h1>
+
+<% form_for(@comment) do |form| %>
+  <%= render :partial => 'form', :locals => {:form => form} %>
+  <p><%= form.submit 'Update' %></p>
+<% end %>
+
+<p>
+  <%= link_to 'Show', @comment %>
+  |
+  <%= link_to 'Back', comments_path %>
+</p>

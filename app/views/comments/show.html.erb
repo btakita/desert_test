@@ -1,0 +1,16 @@
+<dl>
+  <dt>Title</dt>
+  <dd><%= h @comment.title %></dd>
+  <dt>Body</dt>
+  <dd><%= h @comment.body %></dd>
+  <dt>Email</dt>
+  <dd><%= h @comment.email %></dd>
+  <dt>Post</dt>
+  <dd><%= h @comment.post_id %></dd>
+</dl>
+
+<p>
+  <%= link_to 'Edit', edit_comment_path(@comment)%>
+  |
+  <%= link_to 'Back', comments_path %>
+</p>
