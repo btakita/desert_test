@@ -1,4 +1,11 @@
 --- 
+vendor/plugins/shoulda: 
+  squashed: true
+  url: git://github.com/thoughtbot/shoulda.git
+  type: git
+  revision: c84e84ded644ef7c6e16e0e41938a5b144c71e64
+  branch: master
+  remote: braid/vendor/plugins/shoulda
 vendor/plugins/make_resourceful: 
   squashed: true
   url: git://github.com/jcfischer/make_resourceful.git
