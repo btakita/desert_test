@@ -6,3 +6,8 @@ db/schema.rb
 *\*~*
 *.DS_Store
 ._*
+.generators
+.rakeTasks
+*.iml
+*.ipr
+*.iws
